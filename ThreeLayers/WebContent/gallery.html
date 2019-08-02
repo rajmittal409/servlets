@@ -1,0 +1,126 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+	<script type="text/javascript" src="java.js">
+	
+</script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<Style>
+body{background-repeat:no-repeat; background-attachment:focus;background-size:100%,100%;}
+
+#m1{background-color: silver;}
+#it1,#it2,#it3,#it4,#it5,#it12{color:red;}
+
+input[type=text],input[type=number],input[type=email],input[type=password],input[type=date] ,input[type=file],input[type=color],input[type=button],input[type=submit],input[type=reset]{
+  border: 2px solid green;
+  border-radius: 4px;
+}
+input[type=text]:focus ,input[type=number]:focus,input[type=email]:focus,input[type=password]:focus,input[type=date]:focus ,input[type=file]:focus,input[type=color]:focus{
+  background-color: lightblue;
+}
+select {
+  width: 100%;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+  .demo-content{background-color:green;}
+.c1{text-color: blue;}
+.icon-bar{
+position:absolute;
+  right: 0px;
+  width: 190px;
+
+  padding: 4px;
+  
+}
+#menu1 {
+  position: fixed;
+  top: 0;
+  width: 100%
+  
+}
+#menu{position:absolute;
+  left: 0px;
+  width: 400px;
+ 
+  padding: 4px;
+  }
+.t1{font-family:"Arial";font-style:bold;text-color: blue;}
+</style>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+</head>
+<body bgcolor="silver" background="intro-bg.jpg">
+
+<div id="menu1" style="background-color:black">
+<div id="d1">
+<!-- Load font awesome icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The social media icon bar -->
+<div id="menu">
+
+<a href="home.html"><input type="button"  class=" btn btn-primary "  value="Home" onclick="home.html" ></a>
+<a href="about.html"><input type="button"  class=" btn btn-primary "  value="About Us" onclick="about.html" ></a>
+<a href="contact.html">
+<input type="button"  class=" btn btn-primary "  value="Contact Us" onclick="contact.html" ></a>
+<a href="gallery.html">
+<input type="button"  class=" btn btn-primary "  value="Gallery" onclick="gallery.html" ></a>
+</div>
+<div class="icon-bar">
+<input type="button"  class=" btn btn-primary "  value="LogOut" onclick="window1()" >
+  <a href="#" class="facebook"><i class="fa fa-facebook"></i></a> 
+  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a> 
+  <a href="#" class="google"><i class="fa fa-google"></i></a> 
+  <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+  <a href="#" class="youtube"><i class="fa fa-youtube"></i></a> 
+  
+	
+</div>
+</div>
+	
+    <font color="white"><h1 align="center" class="h1">Gallery</h1></font></div>
+
+	<br>
+	<br><br>
+	
+	
+	 <div class="container">
+        <div class="row">
+			<div class="col-md-4">
+				<center><img src="portfolio/app1.jpg" height="200" width="200"class="rounded" alt="Cinque Terre">
+			</div>
+			<div class="col-md-4">
+				<center><img src="portfolio/app2.jpg"  height="200" width="200" class="rounded-circle" alt="Cinque Terre">
+			</div>
+			<div class="col-md-4">
+				<center><img src="portfolio/app3.jpg"  height="200" width="200" class="rounded" alt="Cinque Terre">
+			</div>
+        </div>
+		<br>
+		<div class="row">
+			<div class="col-md-3">
+				<center><img src="portfolio/card3.jpg"  height="200" width="200" class="rounded" alt="Cinque Terre">
+			</div>
+			<div class="col-md-3">
+				<center><img src="portfolio/card2.jpg"class="rounded-circle"  height="200" width="200" alt="Cinque Terre">
+			</div>
+			<div class="col-md-3">
+				<center><img src="portfolio/card1.jpg"class="rounded-circle"  height="200" width="200" alt="Cinque Terre">
+			</div>
+			<div class="col-md-3">
+				<center><img src="paris.jpg"class="rounded"  height="200" width="200" alt="Cinque Terre">
+			</div>
+        </div>
+		</div>
+     
+
+    </section>
